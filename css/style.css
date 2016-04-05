@@ -1,0 +1,124 @@
+body {
+  font-family: 'Monoton', cursive;
+
+}
+
+h1 {
+  font-size: 75px;
+  letter-spacing: 5px;
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+
+.content {
+  margin: auto;
+
+}
+
+header {
+  width: 700px;
+  margin: auto;
+}
+
+h2 {
+  font-family: 'Limelight', cursive;
+  text-align: center;
+  padding: 10px;
+}
+
+header img {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  padding-left: 150px;
+}
+
+form {
+  width: 200px;
+  margin: auto;
+}
+
+
+select {
+  display: inline-block!important;
+  text-align: center!important;
+  height: 200px!important;
+  background: transparent url("play.png")!important;
+  background-size: contain!important;
+}
+
+option {
+  width: 100px!important;
+  margin: auto!important;
+
+}
+
+
+#movie-selection img{
+  width: 80px;
+}
+
+
+
+.selectParent select{
+  box-shadow: none!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+
+}
+
+.form-control {
+  margin: 20px auto!important;
+  padding: 5px!important;
+}
+
+
+#movie-selection .form-control {
+  background: url("../play.png")!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+  border-radius: 100%!important;
+  cursor: pointer;
+}
+
+#time-selection .form-control {
+  background: url("../time.png")!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+  background-size: contain!important;
+  border-radius: 100%!important;
+  cursor: pointer;
+}
+
+#ticket-type .form-control {
+  background: url("../ticket.png")!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+  border-radius: 100%!important;
+  cursor: pointer;
+}
+
+.form-control:hover {
+  border-radius: 100%!important;
+  box-shadow: 1px 5px 105px 25px pink!important;
+}
+
+a {
+  text-decoration: none!important;
+  color: #000;
+}
+
+a:hover {
+  color: pink;
+}
+
+select {
+  font-family: 'gill sans'!important;
+  font-size: 40px!important;
+  text-align: center!important;
+  margin: auto!important;
+  margin-top: 100px!important;
+}
